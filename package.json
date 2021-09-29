@@ -45,6 +45,7 @@
     "event-dispatch": "^0.4.1",
     "express": "^4.17.1",
     "helmet": "^4.6.0",
+    "mongodb": "^4.1.2",
     "mongoose": "^6.0.7",
     "typedi": "^0.10.0"
   }
