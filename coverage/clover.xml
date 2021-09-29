@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1632875519041" clover="3.2.0">
-  <project timestamp="1632875519041" name="All files">
-    <metrics statements="85" coveredstatements="84" conditionals="21" coveredconditionals="21" methods="19" coveredmethods="19" elements="125" coveredelements="124" complexity="0" loc="85" ncloc="85" packages="4" files="5" classes="5"/>
+<coverage generated="1632922561942" clover="3.2.0">
+  <project timestamp="1632922561942" name="All files">
+    <metrics statements="86" coveredstatements="85" conditionals="21" coveredconditionals="21" methods="19" coveredmethods="19" elements="126" coveredelements="125" complexity="0" loc="86" ncloc="86" packages="4" files="5" classes="5"/>
     <package name="src.commons.models">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="adn.ts" path="/Users/yessica/proyects/mutant/src/commons/models/adn.ts">
@@ -15,68 +15,69 @@
       </file>
     </package>
     <package name="src.mutants">
-      <metrics statements="56" coveredstatements="55" conditionals="19" coveredconditionals="19" methods="12" coveredmethods="12"/>
+      <metrics statements="57" coveredstatements="56" conditionals="19" coveredconditionals="19" methods="12" coveredmethods="12"/>
       <file name="mutants.controller.ts" path="/Users/yessica/proyects/mutant/src/mutants/mutants.controller.ts">
         <metrics statements="22" coveredstatements="22" conditionals="8" coveredconditionals="8" methods="4" coveredmethods="4"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="8" count="4" type="stmt"/>
-        <line num="10" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="11" count="2" type="stmt"/>
-        <line num="12" count="2" type="stmt"/>
-        <line num="15" count="2" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="16" count="4" type="cond" truecount="2" falsecount="0"/>
         <line num="17" count="2" type="stmt"/>
-        <line num="18" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="24" count="2" type="stmt"/>
-        <line num="30" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="31" count="1" type="stmt"/>
-        <line num="33" count="3" type="stmt"/>
-        <line num="34" count="3" type="stmt"/>
-        <line num="35" count="18" type="stmt"/>
-        <line num="36" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="37" count="1" type="stmt"/>
-        <line num="40" count="4" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="41" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="44" count="3" type="stmt"/>
+        <line num="45" count="3" type="stmt"/>
+        <line num="46" count="18" type="stmt"/>
+        <line num="47" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="51" count="4" type="stmt"/>
       </file>
       <file name="mutants.service.ts" path="/Users/yessica/proyects/mutant/src/mutants/mutants.service.ts">
-        <metrics statements="34" coveredstatements="33" conditionals="11" coveredconditionals="11" methods="8" coveredmethods="8"/>
-        <line num="2" count="2" type="stmt"/>
+        <metrics statements="35" coveredstatements="34" conditionals="11" coveredconditionals="11" methods="8" coveredmethods="8"/>
+        <line num="3" count="2" type="stmt"/>
         <line num="9" count="2" type="stmt"/>
-        <line num="16" count="9" type="stmt"/>
-        <line num="20" count="8" type="stmt"/>
-        <line num="24" count="8" type="stmt"/>
+        <line num="17" count="9" type="stmt"/>
         <line num="25" count="8" type="stmt"/>
-        <line num="26" count="38" type="stmt"/>
-        <line num="27" count="107" type="stmt"/>
-        <line num="28" count="428" type="stmt"/>
-        <line num="29" count="428" type="cond" truecount="2" falsecount="0"/>
-        <line num="30" count="15" type="stmt"/>
-        <line num="34" count="38" type="cond" truecount="2" falsecount="0"/>
-        <line num="35" count="4" type="stmt"/>
-        <line num="39" count="8" type="stmt"/>
-        <line num="43" count="428" type="stmt"/>
-        <line num="44" count="428" type="stmt"/>
-        <line num="46" count="428" type="cond" truecount="5" falsecount="0"/>
-        <line num="50" count="1205" type="stmt"/>
-        <line num="51" count="1205" type="stmt"/>
-        <line num="52" count="1205" type="stmt"/>
-        <line num="53" count="1205" type="stmt"/>
-        <line num="56" count="428" type="cond" truecount="2" falsecount="0"/>
-        <line num="57" count="172" type="stmt"/>
-        <line num="58" count="172" type="stmt"/>
-        <line num="60" count="256" type="stmt"/>
-        <line num="64" count="8" type="stmt"/>
-        <line num="65" count="8" type="stmt"/>
-        <line num="66" count="44" type="stmt"/>
-        <line num="67" count="44" type="stmt"/>
-        <line num="70" count="8" type="stmt"/>
-        <line num="74" count="3" type="stmt"/>
-        <line num="75" count="3" type="stmt"/>
-        <line num="76" count="3" type="stmt"/>
-        <line num="78" count="0" type="stmt"/>
+        <line num="34" count="8" type="stmt"/>
+        <line num="35" count="8" type="stmt"/>
+        <line num="36" count="8" type="stmt"/>
+        <line num="37" count="38" type="stmt"/>
+        <line num="38" count="107" type="stmt"/>
+        <line num="39" count="428" type="stmt"/>
+        <line num="40" count="428" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="15" type="stmt"/>
+        <line num="45" count="38" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="4" type="stmt"/>
+        <line num="50" count="8" type="stmt"/>
+        <line num="63" count="428" type="stmt"/>
+        <line num="64" count="428" type="stmt"/>
+        <line num="66" count="428" type="cond" truecount="5" falsecount="0"/>
+        <line num="70" count="1205" type="stmt"/>
+        <line num="71" count="1205" type="stmt"/>
+        <line num="72" count="1205" type="stmt"/>
+        <line num="73" count="1205" type="stmt"/>
+        <line num="76" count="428" type="cond" truecount="2" falsecount="0"/>
+        <line num="77" count="172" type="stmt"/>
+        <line num="78" count="172" type="stmt"/>
+        <line num="80" count="256" type="stmt"/>
+        <line num="89" count="8" type="stmt"/>
+        <line num="90" count="8" type="stmt"/>
+        <line num="91" count="44" type="stmt"/>
+        <line num="92" count="44" type="stmt"/>
+        <line num="95" count="8" type="stmt"/>
+        <line num="105" count="3" type="stmt"/>
+        <line num="106" count="3" type="stmt"/>
+        <line num="107" count="3" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.stats">
@@ -85,11 +86,11 @@
         <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
         <line num="3" count="1" type="stmt"/>
         <line num="10" count="4" type="stmt"/>
-        <line num="15" count="4" type="stmt"/>
-        <line num="16" count="4" type="stmt"/>
-        <line num="18" count="4" type="stmt"/>
-        <line num="24" count="4" type="stmt"/>
-        <line num="28" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="38" count="4" type="cond" truecount="2" falsecount="0"/>
       </file>
     </package>
     <package name="test">

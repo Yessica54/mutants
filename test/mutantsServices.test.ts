@@ -61,9 +61,8 @@ describe('MutantsService', () => {
     it('can register', async () => {
         let dna = ["ATGCT","GATCT","GCACG","GCTAA","GTTTT","GCATT"]
         const mutantsService = new MutantsService(Adn)
-        await mutantsService.register(dna, true)
-        const find = await Adn.findOne({}).exec()
-        expect(find.adn).toEqual(dna.join())
+        let result = await mutantsService.register(dna, true)
+        expect(result.adn).toEqual(dna.join())
     });
    
 });

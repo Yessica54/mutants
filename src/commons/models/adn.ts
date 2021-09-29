@@ -18,4 +18,4 @@ adnSchema.statics.build = (attr: IAdn) => {
 }
 
 const Adn = mongoose.model<any,AdnModelInterface>("Adn", adnSchema)
-export {Adn} 
+export {Adn}

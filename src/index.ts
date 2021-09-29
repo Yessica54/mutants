@@ -7,7 +7,7 @@ import { mutantsRouter } from "./mutants/mutants.router";
 import { statsRouter } from "./stats/stats.router";
 import { notFoundHandler } from "./commons/middleware/not-found.middleware";
 
- 
+
 dotenv.config();
 
 /**
@@ -17,7 +17,7 @@ dotenv.config();
  if (!process.env.PORT) {
     process.exit(1);
  }
- 
+
  const PORT: number = parseInt(process.env.PORT as string, 10);
  const DATABASE_URL: string = process.env.DATABASE_URL;
 
@@ -35,11 +35,11 @@ app.use('/api/mutant', mutantsRouter);
 app.use('/api/stats', statsRouter);
 
 // Middleware
-app.use(notFoundHandler); 
+app.use(notFoundHandler);
 
 // BD Activation
 mongoose.connect(DATABASE_URL, () => {
-    console.log(`Connected to Database`);
+    console.info(`Connected to Database`);
 })
 
 /**
@@ -47,6 +47,5 @@ mongoose.connect(DATABASE_URL, () => {
  */
 
 app.listen(PORT, () => {
-   console.log(`Listening on port ${PORT}`);
+   console.info(`Listening on port ${PORT}`);
 });
-  
