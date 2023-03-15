@@ -39,7 +39,7 @@ export class MutantController {
         let error: string;
         let dna: string[];
         if(!req.body.dna){
-            error="Debe proporsionar un ADN"
+            error="Debe proporsionar un ADN - mal escrito"
         }else{
             dna = req.body.dna
             const regexp = new RegExp('^[ATCGatcg]+$')
